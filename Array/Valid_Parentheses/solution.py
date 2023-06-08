@@ -1,9 +1,4 @@
 class Solution:
-
-    # def isValid(self, s: str) -> bool:
-    #       stack = []
-    #       open_brackets = ['(', '{', '[']
-    #       for letter in s:
     
     def isValid(self, s: str) -> bool:
         stack = []
@@ -30,8 +25,6 @@ class Solution:
         else:
             return '['
                     
-
-
 if __name__ == '__main__':
     s = "()"
     sol = Solution()
